@@ -72,84 +72,10 @@ li:hover
     cursor:help;
 }
 
-
-main 
-{
-    flex: 1; 
-    display: flex;
-    flex-direction: row;
-}
-
-section 
-{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: rgb(135, 233, 148);
-    text-shadow: 0 0 10px rgb(235, 38, 137);
-    margin: 1em;
-    padding: 1em;
-}
-
-.fila 
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10em; /* Espacio entre las tarjetas */
-    margin-bottom: 5em;
-
-}
-
-.polaroid 
-{
-    display: flex; /* Activa flexbox */
-    flex-direction: column;
-    align-content: center;
-    width: 18%;
-    height: 75%;
-    background: white;
-    padding: 1%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.5s ease;
-}
-img.producto 
-{
-    display: flex;
-    width: 100%;
-    transition: transform 0.5s ease;
-}
-
-.polaroid p
-{
-    color: rgb(0, 0, 0);
-    text-shadow: none;
-}
-
-section p 
-{
-    font-size: 1.5em;
-    margin-bottom: 3em;
-    text-shadow: 0 0 10px rgb(235, 38, 137);
-    color: rgb(135, 233, 148);
-}
-
 a
 {
     text-decoration: none;
     color: white;
-}
-
-div > a
-{
-    display: block;
-    max-width: 22%;
-    height: auto;
-    text-align: center;
 }
 
 a:visited 
@@ -163,14 +89,100 @@ a:hover
     color: rgb(255, 220, 104);
 }
 
-.producto
+
+main 
 {
-    width: 100%;
-    max-height: auto;
-    transition: transform 0.5s ease;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
 }
 
-footer 
+.seccionPrincipal
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(255, 220, 104);
+    text-align: center;
+    margin: 1em;
+}
+
+.presentacion
+{
+    width: 70%;
+    margin: auto;
+    font-size: large;
+    text-align: center;
+}
+
+.clausula
+{
+    width: 60%;
+    margin: auto;
+    margin-top: 10vh;
+    
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    text-decoration: underline;
+    font-size: small;
+    text-align: center;
+}
+
+.titulo
+{
+    margin-top: 15vh;
+    text-align: center;
+    font-size: 8vh;
+    color: rgb(255, 220, 104);
+    text-shadow: 0 0 100px rgb(176, 89, 202);
+}
+
+.instructores
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    align-content: flex-start;
+    text-align: end;
+    gap: 30vh;
+}
+
+.instructores section
+{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    height: 50vh;
+    width: auto;
+}
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+    padding-right:2vh ;
+}
+
+.nombreInstructor
+{
+    text-align: left;
+    color: rgb(135, 233, 148);
+    text-shadow: rgb(235, 38, 137);
+
+}
+
+aside img
+{
+    width: 80%;
+    height: auto;
+}
+
+
+.copyright
 {
     text-align: right;
     margin: 1em;
@@ -180,6 +192,8 @@ footer
     color: white;
 }
 
+
+/*esto es para ponerle un easter egg a la página jejeje*/
 @keyframes girar 
 {
     from 
@@ -192,20 +206,15 @@ footer
     }
 }
 
-.polaroid:hover
-{
-    transform: rotate(15deg) scale(1.1);
-}
-
 header > img:hover
 {
     animation: girar 2s linear infinite;
     cursor:-webkit-grabbing;
 }
 
-header > img:hover + .easteregg
+img:hover + .easteregg
 {
     transition: 2s;
     visibility: visible;
     opacity: 1;
-}
+} 

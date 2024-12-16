@@ -72,84 +72,10 @@ li:hover
     cursor:help;
 }
 
-
-main 
-{
-    flex: 1; 
-    display: flex;
-    flex-direction: row;
-}
-
-section 
-{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: rgb(135, 233, 148);
-    text-shadow: 0 0 10px rgb(235, 38, 137);
-    margin: 1em;
-    padding: 1em;
-}
-
-.fila 
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10em; /* Espacio entre las tarjetas */
-    margin-bottom: 5em;
-
-}
-
-.polaroid 
-{
-    display: flex; /* Activa flexbox */
-    flex-direction: column;
-    align-content: center;
-    width: 18%;
-    height: 75%;
-    background: white;
-    padding: 1%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.5s ease;
-}
-img.producto 
-{
-    display: flex;
-    width: 100%;
-    transition: transform 0.5s ease;
-}
-
-.polaroid p
-{
-    color: rgb(0, 0, 0);
-    text-shadow: none;
-}
-
-section p 
-{
-    font-size: 1.5em;
-    margin-bottom: 3em;
-    text-shadow: 0 0 10px rgb(235, 38, 137);
-    color: rgb(135, 233, 148);
-}
-
 a
 {
     text-decoration: none;
     color: white;
-}
-
-div > a
-{
-    display: block;
-    max-width: 22%;
-    height: auto;
-    text-align: center;
 }
 
 a:visited 
@@ -163,23 +89,44 @@ a:hover
     color: rgb(255, 220, 104);
 }
 
-.producto
+
+main 
 {
-    width: 100%;
-    max-height: auto;
-    transition: transform 0.5s ease;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
 }
 
-footer 
+section
 {
-    text-align: right;
-    margin: 1em;
-    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     box-shadow: 0 0 10px rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(255, 220, 104);
+    text-align: left;
+    margin: 1em;
 }
 
+.pregunta
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 178, 35);
+    text-shadow: 0 0 10px rgb(35, 123, 255);
+}
+
+section footer
+{
+    text-align: center;
+    color: rgb(255, 178, 35);
+    text-shadow: 0 0 10px rgb(35, 123, 255);
+}
+
+/*esto es para ponerle un easter egg a la página jejeje*/
 @keyframes girar 
 {
     from 
@@ -192,20 +139,15 @@ footer
     }
 }
 
-.polaroid:hover
-{
-    transform: rotate(15deg) scale(1.1);
-}
-
 header > img:hover
 {
     animation: girar 2s linear infinite;
     cursor:-webkit-grabbing;
 }
 
-header > img:hover + .easteregg
+img:hover + .easteregg
 {
     transition: 2s;
     visibility: visible;
     opacity: 1;
-}
+} 

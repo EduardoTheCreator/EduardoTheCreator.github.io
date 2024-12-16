@@ -77,7 +77,7 @@ a
 
 a:visited 
 {
-    color: rgb(65, 190, 76)
+    color: rgb(65, 190, 76);
 }
 
 a:hover
@@ -236,7 +236,7 @@ footer
     }
 }
 
-img:hover
+header > img:hover
 {
     animation: girar 2s linear infinite;
     cursor:-webkit-grabbing;
