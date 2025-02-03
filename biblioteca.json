@@ -1,0 +1,289 @@
+[
+    {
+        "title": "El Color de la Magia",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 1",
+        "cover": "magia.jpg",
+        "year": 1983
+    },
+    {
+        "title": "La luz fantástica",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 2",
+        "cover": "luz.jpg",
+        "year": 1983
+    },
+    {
+        "title": "Ritos Iguales",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 3",
+        "cover": "ritos.jpg",
+        "year": 1987
+    },
+    {
+        "title": "Mort",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 4",
+        "cover": "mort.jpg",
+        "year": 1987
+    },
+    {
+        "title": "Rechicero",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 5",
+        "cover": "rechicero.jpg",
+        "year": 1988
+    },
+    {
+        "title": "Brujerías",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 6",
+        "cover": "brujerias.jpg",
+        "year": 1988
+    },
+    {
+        "title": "Pirómides",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 7",
+        "cover": "piromides.jpg",
+        "year": 1988
+    },
+    {
+        "title": "¡Guardias! ¡Guardias!",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 8",
+        "cover": "guardias.jpg",
+        "year": 1989
+    },
+    {
+        "title": "Eric",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 9",
+        "cover": "eric.jpg",
+        "year": 1990
+    },
+    {
+        "title": "Imágenes en Acción",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 10",
+        "cover": "accion.jpg",
+        "year": 1990
+    },
+    {
+        "title": "El segador",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 11",
+        "cover": "segador.jpg",
+        "year": 1991
+    },
+    {
+        "title": "Brujas de Viaje",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 12",
+        "cover": "brujas.jpg",
+        "year": 1991
+    },
+    {
+        "title": "Dioses Menores",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 13",
+        "cover": "dioses.jpg",
+        "year": 1992
+    },
+    {
+        "title": "Lores y Damas",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 14",
+        "cover": "LoresyDamas.jpg",
+        "year": 1992
+    },
+    {
+        "title": "Hombres de Armas",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 15",
+        "cover": "armas.jpg",
+        "year": 1993
+    },
+    {
+        "title": "Soul Music",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 16",
+        "cover": "soul.jpg",
+        "year": 1994
+    },
+    {
+        "title": "Tiempos Interesantes",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 17",
+        "cover": "tiempos.jpg",
+        "year": 1994
+    },
+    {
+        "title": "Mascarada",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 18",
+        "cover": "mascarada.jpg",
+        "year": 1995
+    },
+    {
+        "title": "Pies de Barro",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 19",
+        "cover": "piesBarro.jpg",
+        "year": 1996
+    },
+    {
+        "title": "Papá Puerco",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 20",
+        "cover": "papaPuerco.jpg",
+        "year": 1996
+    },
+    {
+        "title": "¡Voto a Bríos!",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 21",
+        "cover": "brios.jpg",
+        "year": 1997
+    },
+    {
+        "title": "El País del Fin del Mundo",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 22",
+        "cover": "fin.jpg",
+        "year": 1998
+    },
+    {
+        "title": "Carpe Jugulum",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 23",
+        "cover": "carpejugulum.jpg",
+        "year": 1998
+    },
+    {
+        "title": "El quinto Elefante",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 24",
+        "cover": "quintoElefante.jpg",
+        "year": 1999
+    },
+    {
+        "title": "La Verdad",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 25",
+        "cover": "verdad.jpg",
+        "year": 2000
+    },
+    {
+        "title": "Ladrón del Tiempo",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 26",
+        "cover": "ladron.jpg",
+        "year": 2001
+    },
+    {
+        "title": "El Último Héroe",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 27",
+        "cover": "heroe.jpg",
+        "year": 2001
+    },
+    {
+        "title": "El Asombroso Mauricio y sus roedores sabios",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 28",
+        "cover": "mauricio.jpg",
+        "year": 2001
+    },
+    {
+        "title": "Ronda de Noche",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 29",
+        "cover": "ronda.jpg",
+        "year": 2002
+    },
+    {
+        "title": "Los Pequeños Hombres Libres",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 30",
+        "cover": "libres.jpg",
+        "year": 2003
+    },
+    {
+        "title": "Regimiento Monstruoso",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 31",
+        "cover": "regimiento.jpg",
+        "year": 2003
+    },
+    {
+        "title": "Un Sombrero de Cielo",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 32",
+        "cover": "cielo.jpg",
+        "year": 2004
+    },
+    {
+        "title": "Cartas en el Asunto",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 33",
+        "cover": "cartas.jpg",
+        "year": 2004
+    },
+    {
+        "title": "¡Zas!",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 34",
+        "cover": "zas.jpg",
+        "year": 2005
+    },
+    {
+        "title": "La Corona de Hielo",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 35",
+        "cover": "hielo.jpg",
+        "year": 2006
+    },
+    {
+        "title": "Dinero a Mansalva",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 36",
+        "cover": "mansalva.jpg",
+        "year": 2007
+    },
+    {
+        "title": "El Atlético Invisible",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 37",
+        "cover": "atletico.jpg",
+        "year": 2009
+    },
+    {
+        "title": "Me Vestiré de Medianoche",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 38",
+        "cover": "medianoche.jpg",
+        "year": 2010
+    },
+    {
+        "title": "Snuff",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 39",
+        "cover": "snuff.jpg",
+        "year": 2011
+    },
+    {
+        "title": "A Todo Vapor",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 40",
+        "cover": "vapor.jpg",
+        "year": 2013
+    },
+    {
+        "title": "La Corona del Pastor",
+        "author": "Terry Pratchett",
+        "numero": "Mundodisco 41",
+        "cover": "pastor.jpg",
+        "year": 2015
+    }
+]

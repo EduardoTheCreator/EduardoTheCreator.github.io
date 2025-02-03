@@ -1,0 +1,81 @@
+@keyframes cambiarTextoCabecera {
+    0%    { text-shadow: 2vb 0vb 0vb rgb(218, 24, 57); }
+    14%   { text-shadow: 0vb 2vb 0vb rgb(226, 158, 31); }
+    28%   { text-shadow: 0vb 0vb 2vb rgb(255, 213, 24); }
+    42%   { text-shadow: 2vb 0vb 2vb rgb(20, 160, 55); }
+    57%   { text-shadow: 0vb 2vb 0vb rgb(32, 49, 199); }
+    71%   { text-shadow: 0vb 0vb 2vb rgb(166, 96, 216); }
+    85%   { text-shadow: 2vb 0vb 0vb rgb(214, 151, 214); }
+    100%  { text-shadow: 0vb 2vb 0vb rgb(182, 12, 40); }
+}
+
+@keyframes cambiarTexto
+{
+    0%   { color: rgb(138, 235, 151); }
+    50%  { color: rgb(238, 132, 229); }
+    100% { color: rgb(91, 177, 218); }
+}
+
+*
+{
+ font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body
+{
+    background-image: url(multimedia/fondo.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    align-content: center;
+    align-items: center;
+}
+
+header
+{
+    text-align: center;
+    color: rgb(255, 213, 77);
+    animation: cambiarTextoCabecera 5s infinite;
+    opacity: 0.85;
+    box-shadow: 10px 0px 20px rgb(230, 187, 95);
+    
+}
+
+#gallery
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#gallery > div
+{   
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    
+    color: wheat;
+    width: 10cm;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    /* height: 125vh; */
+    background-image: url(multimedia/papel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 2%;
+}
+
+img
+{
+    height: 15cm;
+    border: solid black;
+
+}
